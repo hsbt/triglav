@@ -252,6 +252,7 @@ GEM
       railties
     method_source (0.8.1)
     mime-types (1.21)
+    mini_portile2 (2.4.0)
     minitest (4.6.2)
     multi_json (1.6.1)
     multipart-post (1.2.0)
@@ -264,7 +265,8 @@ GEM
     net-ssh-gateway (1.2.0)
       net-ssh (>= 2.6.5)
     netrc (0.7.7)
-    nokogiri (1.5.6)
+    nokogiri (1.10.10)
+      mini_portile2 (~> 2.4.0)
     oauth2 (0.8.1)
       faraday (~> 0.8)
       httpauth (~> 0.1)
