@@ -162,7 +162,8 @@ GIT
 GEM
   remote: http://rubygems.org/
   specs:
-    addressable (2.3.3)
+    addressable (2.8.0)
+      public_suffix (>= 2.0.2, < 5.0)
     artii (2.0.3)
     atomic (1.0.1)
     better_errors (0.7.2)
@@ -292,6 +293,7 @@ GEM
       coderay (~> 1.0.5)
       method_source (~> 0.8)
       slop (~> 3.4)
+    public_suffix (4.0.6)
     rack (1.5.2)
     rack-contrib (1.1.0)
       rack (>= 0.9.1)
